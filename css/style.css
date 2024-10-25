@@ -1,0 +1,93 @@
+:root {
+  --primary: #eb4d04;
+  --bg: rgba(247, 231, 232, 0.8);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+  color: var(--primary);
+}
+
+.Home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/pkm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+.Home span {
+  color: #eb4d04;
+  font-style: italic;
+}
+
+.Home .home h1 {
+  font-size: 3em;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: rgba(227, 70, 79, 0.8);
+  border-bottom: 1px solid var(--primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.nav .logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  font-style: italic;
+}
+
+.nav .navbar a {
+  color: white;
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 0 1rem;
+}
+
+.nav .navbar a:hover {
+  color: var(--primary);
+}
+
+.nav .extra a {
+  color: white;
+  margin: 0 0.5rem;
+}
+
+#menu {
+  display: none;
+}
+
+.nav .logo span {
+  color: purple;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
